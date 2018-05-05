@@ -23,7 +23,7 @@ from sklearn.feature_selection import RFE
 '''Pulling the data from the CSV files'''
 #Loading data
 print('Fetching required data...\n\n')
-fname = 'young-people-survey/'+'responses.csv'
+fname = 'responses.csv'
 f = open(fname, 'r') 
 
 df = pandas.read_csv(fname)
